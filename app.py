@@ -10,9 +10,9 @@ page = st.sidebar.radio("Go to", ["Home", "Portfolio", "Blog", "About", "Contact
 # Home Page
 if page == "Home":
     st.title("Welcome to My Portfolio Blog")
-    st.image("assets/home_banner.jpg", use_column_width=True)
+    # st.image("assets/home_banner.jpg", use_column_width=True)
     st.write("""
-    Hi! I'm [Your Name], a data enthusiast passionate about AI, data engineering, and creating impactful projects.
+    Hi! I'm Bauyrzhan, a data enthusiast passionate about AI, data engineering, and creating impactful projects.
     Use the navigation menu to explore my portfolio, blog, and contact me.
     """)
 
